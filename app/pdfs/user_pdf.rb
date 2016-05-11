@@ -12,6 +12,5 @@ class UserPdf < Prawn::Document
   
   def line_items
     move_down 20
-    table [[1,2],[3,4]]
   end
 end
