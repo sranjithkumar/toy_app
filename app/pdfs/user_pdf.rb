@@ -7,7 +7,7 @@ class UserPdf < Prawn::Document
   end
   
   def format_user
-    text "order #{@user.name}", size: 30, style: :bold
+    text "#{@user.name} Profile", size: 30, style: :bold
   end
   
   def line_items
